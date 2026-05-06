@@ -8,10 +8,10 @@ import {spawn_zombies,zombie} from "./assets/zombie/spawner.js";
 const playerImg = new Image();
 playerImg.src = "./assets/player.png";
 playerImg.onerror = ()=>{
-    alert("Image not loaded");
     playerImg.src = "./assets/player.png";
 }
 playerImg.onload = ()=>{
+    alert("Image Loaded");
     game_loop();
 }
 let posX = canvas.width/2;
