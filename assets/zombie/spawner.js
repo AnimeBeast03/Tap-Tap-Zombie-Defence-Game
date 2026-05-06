@@ -72,4 +72,4 @@ function spawn_zombies() {
 
 
 // export things
-export {spawn_zombies};
+export {spawn_zombies,zombie};
