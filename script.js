@@ -8,14 +8,11 @@ playerImg.src = "./assets/player.png";
 playerImg.onerror = ()=>{
     playerImg.src = "./assets/player.png";
 }
-playerImg.onload = ()=>{
-    game_loop();
-}
 let posX = canvas.width/2;
 let posY = 500;
 
 // start game loop
-// game_loop();
+game_loop();
 
 function game_loop() {
 ctx.clearRect(0,0,canvas.width,canvas.height);
