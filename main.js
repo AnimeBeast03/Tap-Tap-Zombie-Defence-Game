@@ -1,5 +1,5 @@
 // import some stuff
-import {canvas,ctx,debuger} from "./assets/do_page_settup.js";
+import {canvas,ctx,debuger} from "./assets/files/do_page_settup.js";
 import {spawn_zombies,zombie} from "./assets/files/zombie_spawner.js";
 
 
