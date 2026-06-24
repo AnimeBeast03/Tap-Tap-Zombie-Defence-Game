@@ -50,6 +50,9 @@ function spawn_zombies() {
             ctx.drawImage(zombie.image,z.x-32,z.y-32);
             // debugger // display zombie position & speed
             if (debuger == true) {
+                ctx.lineWidth = 1;
+                ctx.strokeStyle = 'red';
+                ctx.strokeRect(z.x-32,z.y-32,64,64);
                 ctx.font = "10px Arial";
                 ctx.fillStyle = "white";
                 ctx.fillText("id: " + i, z.x-10,z.y-50);
