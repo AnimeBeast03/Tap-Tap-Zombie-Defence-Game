@@ -5,7 +5,7 @@ import {draw_player,player} from "./assets/files/player.js";
 
 
 
-
+/*
 let bullet = {
     img: new Image(),
     img_src: "./assets/images/bullet.png",
@@ -30,7 +30,7 @@ canvas.addEventListener("pointerdown", (e)=>{
         FT2 : 0         // frame 2 timer
     });
 });
-
+*/
 
 
 
@@ -43,14 +43,14 @@ function game_loop() {
 ctx.clearRect(0,0,canvas.width,canvas.height);
     spawn_zombies();
     draw_player();
-    
+    /*
     draw_bullets();
-    
+    */
 requestAnimationFrame(game_loop);
 };
 
 
-
+/*
 function draw_bullets() {
     for (let i = 0; i < bullet.active.length; i++) {
         let b = bullet.active[i];
@@ -82,3 +82,4 @@ function draw_bullets() {
         b.y += Math.sin(b.a) * bullet.speed;
     }
 }
+*/
